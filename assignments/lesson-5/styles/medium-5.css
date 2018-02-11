@@ -1,18 +1,19 @@
 @media only screen and (min-width: 37.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
-    
-    li {
-    float: left;
-}
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-}
-  
+    header, nav, main, footer {
+        max-width: 700px;
+    }
+    
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
+  nav ul li {
+    display: inline-block;
+}
+    main {
+        clear:both;
+    }
+    
   section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
   
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */

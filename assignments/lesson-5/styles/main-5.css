@@ -5,38 +5,90 @@
 body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
+  font-family: gisha;
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
-header {}
-header h1 {}
-header img {}
-header .subheading {}
+header {
+    max-width: 600px;
+    margin: 0 auto;
+    padding 50px;
+    border-width: blue 20px;
+}
+header h1 {
+    color: cadetblue;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+    width: 15%;
+    height: auto;
+}
+header .subheading {
+    color: orange;
+}
 
-nav {}
+nav {
+    max-width: 50%;
+    margin: auto;
+    padding 50px;
+    border-width: 20px;
+}
 nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: darkgrey;
+}
+nav ul li {
+    text-align: center;
+}
+nav ul li a {
+    display:block;
+    color:brown;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: aqua;
+    color: rebeccapurple;
+}
 nav ul li a:hover {}
+    background-color: orange;
+    color: rebeccapurple;
 
-main {}
-main h2 {}
+main {
+    max-width: 50%;
+    margin: auto;
+    padding: 50px;
+    border-width: 20px;
+    
+}
+main h2 {
+    color: brown;
+}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
 section {}
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 0;
 }
 
-footer {}
+footer {
+    max-width: 50%;
+    margin: auto;
+    padding 50px;
+    border-width: 20px;
+    background-color: darkgrey;
+}
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 
