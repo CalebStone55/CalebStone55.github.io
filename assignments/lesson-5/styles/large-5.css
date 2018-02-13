@@ -14,3 +14,23 @@ header {
     padding 50px;
     border-width: 20px; 
 }
+section {
+    max-width: 50%;
+    margin: auto;
+    padding 50px;
+    border-width: 20px;
+}
+main {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 20px;
+    
+}
+main h2 {
+    max-width: 50%;
+    margin: auto;
+    padding 50px;
+    border-width: 20px;
+    color: brown;
+}
