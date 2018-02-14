@@ -1,36 +1,109 @@
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
-    
+
+header, nav, main, footer {
+    max-width: 960px;
+    margin: auto;
+}
+       
 li {
     display: inline;
 }
-    
-  article p.town-article img { width: 29.333%; }
-  
-}
+
+main {
+    clear:both;
+    }
+
 header {
     max-width: 600px;
     margin: 0 auto;
     padding 50px;
-    border-width: 20px; 
+    border-width: solid blue 20px;
 }
-section {
+header h1 {
+    color: cadetblue;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+    width: 15%;
+    height: auto;
+}
+header .subheading {
+    color: orange;
+}
+
+nav {
     max-width: 50%;
     margin: auto;
     padding 50px;
     border-width: 20px;
 }
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: darkgrey;
+}
+nav ul li {
+    text-align: center;
+}
+nav ul li a {
+    display:block;
+    color:brown;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: aqua;
+    color: rebeccapurple;
+}
+nav ul li a:hover {}
+    background-color: orange;
+    color: rebeccapurple;
+
 main {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 50px;
     border-width: 20px;
     
 }
 main h2 {
-    max-width: 50%;
+    max-width: 80%;
     margin: auto;
     padding 50px;
     border-width: 20px;
     color: brown;
 }
+
+main figure { margin: 0 0 .2rem 2%; width:56%; }
+main figure img { width: 100%; }
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding 50px;
+    border-style: solid;
+    }
+}
+atricle p.town-article {boarder-style solid}
+    
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  min-width: 80%;
+  max-width: 100%; /* fill the page in the small/phone view */
+  margin: 0;
+}
+
+footer {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding 50px;
+    border-width: 20px;
+    background-color: darkgrey;
+}
+footer aside {}
+footer>p {}

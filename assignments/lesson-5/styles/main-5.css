@@ -16,7 +16,7 @@ header {
     max-width: 600px;
     margin: 0 auto;
     padding 50px;
-    border-width: blue 20px;
+    border-width: solid blue 20px;
 }
 header h1 {
     color: cadetblue;
@@ -80,11 +80,11 @@ main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
 
 section {
-    max-width: 50%;
-    margin: auto;
+    max-width: 500px;
+    margin: 0 auto;
     padding 50px;
-    border-width: 20px;
-}
+    border-style: solid;
+    }
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: 100%; /* fill the page in the small/phone view */
@@ -92,8 +92,9 @@ article p.town-article img {  /* This structure refers to img elements that are 
 }
 
 footer {
+    text-align: center;
     max-width: 50%;
-    margin: auto;
+    margin: 0 auto;
     padding 50px;
     border-width: 20px;
     background-color: darkgrey;
