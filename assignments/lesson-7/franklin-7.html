@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeatherOut:City of Franklin Weather</title>
+  <meta name="author" content="Caleb Stone">
+  <meta name="description" content="City of Franklin Weather Website">
+  <!-- external style references in the proper cascading order -->    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=lato">  <!-- Google API font reference -->
+  <link rel="stylesheet" href="styles/normalize.css">                       <!-- normalize useragent/browser defaults -->
+  <link rel="stylesheet" href="styles/main-5.css">                          <!-- default styles - small/phone views -->
+  <link rel="stylesheet" href="styles/medium-5.css">                        <!-- medium/tablet views -->
+  <link rel="stylesheet" href="styles/large-5.css" rel="stylesheet">        <!-- large/wide/desktop views --> 
+    
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.jpg" alt="The site logo" width="100px" height="auto">
+    <h1>WeatherOut</h1>
+    <div class="subheading">WeatherOut Any Storm</div>
+  </header>
+
+  <!-- site navigation use placeholder references -->
+  <nav>
+    <button onclick="toggleNavMenu()">&#9776;</button>
+    <ul>
+    	<li><a href="#">Home</a></li>
+    	<li class="active"><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="#">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>The City of Franklin</h2>
+      <img src="images/franklin-original.jpeg" alt="Franklin Image "srcset="images/franklin-small.jpeg 1x, images/franklin-medium.jpeg 2x, images/franklin-large.jpeg 3x">
+    <figure>
+      <img>
+    </figure>
+    <section>
+      <h3>Weather Summary</h3>    
+      <div class="highlow">
+        <p>High:</p>  
+        <p>Low:</p>  
+      </div>
+      <div class="current">
+        Sunny
+        <picture>
+            <img src="images/sunny.jpg" alt="Sunny Day" width="150px" height="auto">
+        </picture>
+      </div>   
+      <div class="conditions">
+        <p>Precipitation:</p>  
+        <p>Wind Speed:</p>  
+      </div>           
+    </section>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+	    <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+		</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+      
+    <article>
+      <h3>Franklin Breaks Record</h3>	
+      <p class="town-article">
+        <img src="images/franklin.jpeg" alt="City of Fraklin" width="100px" height="auto">
+        short article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholdershort article content placeholder
+      </p>
+		</article>		  
+  
+  </main>
+    
+  <footer>
+    <aside>
+      Contact information placeholder
+    </aside>
+    <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | currentDate
+       
+  </footer>
+
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+ 
+  </script>
+    
+</body>
+</html>
