@@ -1,41 +1,27 @@
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
-header, nav, main, footer {
-    max-width: 960px;
+  header, nav, main, section, footer  {
+    max-width: 1100px;
     margin: auto;
-}
-       
-main {
-    clear:both;
+  }    
+
+  header {
+    margin: 20px auto;
+  }
+
+    article p.town-article img { 
+        width: 60%;
+        flex-wrap:wrap;
+    }
+    
+    .gallery {
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 50px;
+        padding: 20px 20px;
     }
 
-header {
-    max-width: 500px;
-    margin: 0 auto;
-    padding 50px;
-    border-width: solid blue 20px;
-}
-
-nav {
-    max-width: 60%;
-    margin: auto;
-    padding 50px;
-    border-width: 20px;
-}
-
-main {  
-}
-
-
-
-}
-atricle p.town-article {boarder-style solid}
-    
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  min-width: 80%;
-  max-width: 100%; /* fill the page in the small/phone view */
-  margin: 0;
-}
-
+ 
 
