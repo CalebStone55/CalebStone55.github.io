@@ -22,7 +22,9 @@ nav ul li a {
     display:block;
     color: antiquewhite;
 }
-nav ul li a:hover {}
+nav ul li a:hover {
+    background-color: cadetblue;
+}
 
 .container {
     display:grid;
