@@ -1,3 +1,4 @@
-function toggleHam() {
-	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+function toggleNavMenu() {
+    console.log(document.getElementById("NavMenu").classList);
+	document.getElementsById("navMenu").classList.toggle("responsive");
 }

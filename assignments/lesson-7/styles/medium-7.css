@@ -1,22 +1,22 @@
 @media only screen and (min-width: 37.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
-    header, nav, main, footer {
-        max-width: 700px;
-        margin: auto;
+  header, nav, main, footer {
+     max-width: 700px;
+    margin: auto;
+ }
+
+  header img {
+    margin-right: 20px;
+    width: 100px;
+    height: auto;
     }
-    
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
-  nav ul li {
-    display: inline-block;
-}
-    main {
-        clear:both;
-    }
-    
-  section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
-  
+  nav ul {
+      width: 100%;
+      flex-direction: row;
+  }    
     
     section {
     max-width: 700px;
@@ -25,6 +25,11 @@
     border-style: solid;
     }
     
-  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+  article p.town-article img { width: 62.666%; }  /* responsive images */
 
+}
+
+.gallery {
+     grid-template-columns: 1fr 1fr;
+ }
 }

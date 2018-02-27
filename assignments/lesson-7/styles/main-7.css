@@ -5,30 +5,30 @@
 body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
-  font-family: gisha;
+  font-family: gisha, sans-serif;
 }
 
-header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
-  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+header, nav, main, footer {
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 header {
-    max-width: 600px;
-    margin: 0 auto;
-    padding 50px;
-    border-width: solid blue 20px;
+    display: flex;
+    align-items: flex-start;
+    background-color: gainsboro;
 }
 header h1 {
     color: cadetblue;
 }
 header img {
-    float: left;
-    margin-right: 20px;
-    width: 15%;
+    margin-right: 10px;
+    width: 80px;
     height: auto;
+    padding: 10px;
 }
 header .subheading {
-    color: orange;
+    color: blueviolet;
 }
 
 nav {
@@ -37,15 +37,18 @@ nav {
     padding 50px;
     border-width: 20px;
 }
-nav button {}
 nav ul {
+    display: flex;
+    flex-direction:column;
+    clear: both;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
     background-color: darkgrey;
 }
 nav ul li {
+    border-bottom: 1px solid grey;
     text-align: center;
 }
 nav ul li a {
@@ -54,19 +57,17 @@ nav ul li a {
     padding: 8px 16px;
     text-decoration: none;
 }
-nav ul li.active a {
-    background-color: aqua;
+
+nav ul li a:hover {
+    background-color: cadetblue;
     color: rebeccapurple;
 }
-nav ul li a:hover {}
-    background-color: orange;
-    color: rebeccapurple;
 
 main {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 50px;
-    border-width: 20px;
+    padding: 10px;
+    border-width: 10px;
     
 }
 main h2 {
@@ -76,8 +77,8 @@ main h2 {
     border-width: 20px;
     color: brown;
 }
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main figure { margin: 0 0 .2rem 2%; width:98%; }
+main figure img { width: 20%; }
 
 section {
     max-width: 500px;
@@ -99,7 +100,11 @@ footer {
     border-width: 20px;
     background-color: darkgrey;
 }
-footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .35rem;
+    margin 1rem;
+}
 
 /* Other Class Selectors */
