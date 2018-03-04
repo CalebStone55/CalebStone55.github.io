@@ -1,0 +1,27 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+  nav, main, section, footer  {
+    max-width: 1100px;
+    margin: auto;
+  }    
+
+  header {
+    max-width: 1100px;
+    margin: 20px auto;
+  }
+
+   header img {
+    margin-right: 10px;
+    width: 130px;
+    height: auto;
+    }
+
+article p.town-article img { 
+        display: flex;
+}
+    
+.gallery {
+     grid-template-columns: 1fr 1fr 1fr;
+ }
+}
