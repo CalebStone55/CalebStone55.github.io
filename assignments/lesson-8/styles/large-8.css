@@ -24,4 +24,28 @@ article p.town-article img {
 .gallery {
      grid-template-columns: 1fr 1fr 1fr;
  }
+ 
+#stormtitle{
+    max-width: 1100px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+#stormform {
+    max-width: 1100px;
+    border: 20em;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    padding-left: 24em;
+    padding-right: 24em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.tybutton {
+    margin-top: 1em;
+    margin-left: 11.45em;
+}
+legend {
+    padding: 1em;   
+}
+    
 }

@@ -32,4 +32,28 @@
 .gallery {
      grid-template-columns: 1fr 1fr;
  }
+
+#stormtitle{
+    max-width: 700px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+#stormform {
+    max-width: 700px;
+    border: 20em;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    padding-left: 12em;
+    padding-right: 12em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.tybutton {
+    margin-top: 1em;
+    margin-left: 11.45em;
+}
+legend {
+    padding: 1em;   
+}
+
 }

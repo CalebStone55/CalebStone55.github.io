@@ -34,25 +34,27 @@
     </ul>		
   </nav>
     
-  <div id="stormform">
-    <h2>Storm Center</h2>
+    <div id="stormtitle">    
+        <h2>Storm Center</h2>
     </div>
-
-      <div class="left">      
+    
+  <div id="stormform">
+    
+      <div class="Top">      
       <form method="post" action="http://www.weatherout.com/subscribe.php" name="reportleft">
         <legend><span>Personal Information</span></legend> 
-        <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5 5}" required></label>
-        <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com"></label>
-        <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" required></label>
-        <label>Zip Code: <input name="zipcode" type="num" value="" placeholder="00000" pattern="[0-9]{5 5}" required></label>  
+        <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5 5}" style="width:12.5em;" required></label>
+        <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com" style="width:14.5em;"></label>
+        <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" style="width:10.25em;" required></label>
+        <label>Zip Code: <input name="zipcode" type="num" value="" placeholder="00000" pattern="[0-9]{5 5}" style="width:13em;" required></label>  
       </form>  
       </div>
      
       <div class="bottom";>
       <form method="post" action="http://www.weatherout.com/subscribe.php" name="reportright">
         <legend><span>Storm Information</span></legend> 
-        <label>Storm Date: <input name="stormdate" type="date" value="" placeholder="month/day/year"></label>
-        <label>Storm Type: <input name="stormtype" placeholder="Select Type" list="stormlist"></label>
+        <label>Storm Date: <input name="stormdate" type="date" value="" placeholder="month/day/year" style="width:12em;"></label>
+        <label>Storm Type: <input name="stormtype" placeholder="Select Type" list="stormlist" style="width:12em;"></label>
             <datalist id="stormlist">
             <option value="Flash Flood">
             <option value="Hail">
@@ -60,7 +62,7 @@
             <option value="Thunderstorm">
             <option value="Tornado">
             </datalist>
-        <label>Storm Region: <input name="stormregion" placeholder="Select Region" list="region"></label>
+        <label>Storm Region: <input name="stormregion" placeholder="Select Region" list="region" style="width:11em;"></label>
             <datalist id="region">
             <option value="Franklin">Franklin</option>
             <option value="Greenville">Greenville</option>
@@ -74,11 +76,12 @@
             <input type="radio" name="danger" value="no">  No<br>
             </div>
         <label> Additional Details or Comments:</label>
-            <textarea name="comments" rows="5" cols="35">
+            <textarea name="comments" rows="5" cols="34.52">
             </textarea><br>
-        <input type="submit" value="Submit Storm" formaction="thanks.html" class="thanksbutton">  
+        <input type="submit" value="Submit Storm" formaction="thanks.html" class="tybutton">  
       </form>     
       </div>
+  </div>
     
   <footer>
     <aside>
