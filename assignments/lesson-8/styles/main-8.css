@@ -102,9 +102,45 @@ footer {
 }
 .gallery {
     display: grid;
- grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-gap: .35rem;
     margin 1rem;
 }
 
+#stormform {
+    text-align: center;
+    margin: 2em;
+    border: 10px;
+}
+.left {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    text-align: left;
+    
+    max-width: 40%;
+    grid-gap: 5rem;
+    padding: 80px;
+}
+.bottom {
+    display: flex;
+    flex-direction:row;
+    clear: both;
+    list-style-type: none;
+    margin: 2em;
+    padding: 3em;
+    overflow: hidden;
+}
+legend {
+    text-align: center;
+    padding: 1em;
+    
+}
+label {
+    display: block;
+    padding: 10px;
+}
+label span {
+    display: block;
+    padding: 10px;
+}
 /* Other Class Selectors */
