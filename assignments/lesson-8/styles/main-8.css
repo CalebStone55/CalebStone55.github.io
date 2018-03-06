@@ -107,12 +107,9 @@ footer {
     margin 1rem;
 }
 #stormtitle{
-    text-align: center;
+    text-align: left;
     max-width: 500px;
-    margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
+    margin: auto
 }
 #stormform {
     text-align: center;
@@ -139,8 +136,10 @@ footer {
 }
 legend {
     text-align: center;
-    padding: 1em;
-    
+    padding: .5em;
+}
+#reporttitle {
+    text-align: center;
 }
 label {
     display: block;

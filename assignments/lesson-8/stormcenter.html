@@ -42,6 +42,9 @@
     
       <div class="Top">      
       <form method="post" action="http://www.weatherout.com/subscribe.php" name="reportleft">
+        <div id="reporttitle">
+            <h2>Storm Report Form</h2>
+        </div>
         <legend><span>Personal Information</span></legend> 
         <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5 5}" style="width:12.5em;" required></label>
         <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com" style="width:14.5em;"></label>
@@ -78,7 +81,7 @@
         <label> Additional Details or Comments:</label>
             <textarea name="comments" rows="5" cols="34.52">
             </textarea><br>
-        <input type="submit" value="Submit Storm" formaction="thanks.html" class="tybutton">  
+        <input type="submit" value="Submit Storm" href="thanks.html" class="tybutton">  
       </form>     
       </div>
   </div>

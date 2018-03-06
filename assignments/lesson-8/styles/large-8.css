@@ -2,12 +2,12 @@
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
   nav, main, section, footer  {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: auto;
   }    
 
   header {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 20px auto;
   }
 
@@ -26,18 +26,16 @@ article p.town-article img {
  }
  
 #stormtitle{
-    max-width: 1100px;
-    margin-top: 3em;
-    margin-bottom: 1em;
+    max-width: 1000px;
 }
 #stormform {
-    max-width: 1100px;
+    max-width: 1000px;
     border: 20em;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
-    padding-left: 24em;
-    padding-right: 24em;
-    padding-top: 3em;
+    padding-left: 21.5em;
+    padding-right: 21.5em;
+    padding-top: 1em;
     padding-bottom: 3em;
 }
 .tybutton {

@@ -2,7 +2,7 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
   header, nav, main, footer {
-     max-width: 700px;
+     max-width: 580px;
     margin: auto;
  }
 
@@ -19,7 +19,7 @@
   }    
     
     section {
-    max-width: 700px;
+    max-width: 580px;
     margin: 0 auto;
     padding 50px;
     border-style: solid;
@@ -34,17 +34,17 @@
  }
 
 #stormtitle{
-    max-width: 700px;
+    max-width: 580px;
     margin-top: 3em;
     margin-bottom: 1em;
 }
 #stormform {
-    max-width: 700px;
+    max-width: 580px;
     border: 20em;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
-    padding-left: 12em;
-    padding-right: 12em;
+    padding-left: 8.5em;
+    padding-right: 8.5em;
     padding-top: 1em;
     padding-bottom: 2em;
 }
