@@ -44,8 +44,7 @@
         <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5 5}" required></label>
         <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com"></label>
         <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" required></label>
-        <label>Zip Code: <input name="zipcode" type="num" value="" placeholder="00000" pattern="[0-9]{5 5}" required></label>
-          
+        <label>Zip Code: <input name="zipcode" type="num" value="" placeholder="00000" pattern="[0-9]{5 5}" required></label>  
       </form>  
       </div>
      
@@ -61,14 +60,23 @@
             <option value="Thunderstorm">
             <option value="Tornado">
             </datalist>
-        <label><span>Storm Severity (1-10):</span><input id="rating" type="range" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label>
         <label>Storm Region: <input name="stormregion" placeholder="Select Region" list="region"></label>
             <datalist id="region">
             <option value="Franklin">Franklin</option>
             <option value="Greenville">Greenville</option>
             <option value="Springfield">Springfield</option>
-          </datalist>  
-          
+            </datalist> 
+        <label>Storm Severity: 1 <input name="stormseverity" type="range" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> 10</label>
+        <label>Were You in Danger?</label>
+            <div  class="radio">
+            <input type="radio" name="danger" value="yes">  Yes<br>
+            <input type="radio" name="danger" value="maybe">  Maybe<br>
+            <input type="radio" name="danger" value="no">  No<br>
+            </div>
+        <label> Additional Details or Comments:</label>
+            <textarea name="comments" rows="5" cols="35">
+            </textarea><br>
+        <input type="submit" value="Submit Storm" formaction="thanks.html" class="thanksbutton">  
       </form>     
       </div>
     
