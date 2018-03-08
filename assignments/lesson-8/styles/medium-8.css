@@ -21,13 +21,12 @@
     section {
     max-width: 580px;
     margin: 0 auto;
-    padding 50px;
+    padding 2em;
     border-style: solid;
     }
     
   article p.town-article img { width: 62.666%; }  /* responsive images */
 
-}
 
 .gallery {
      grid-template-columns: 1fr 1fr;
