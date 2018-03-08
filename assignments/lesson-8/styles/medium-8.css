@@ -2,7 +2,7 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
   header, nav, main, footer {
-     max-width: 580px;
+    max-width: 580px;
     margin: auto;
  }
 
@@ -29,7 +29,8 @@
 
 
 .gallery {
-     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    max-width: 580px;
  }
 
 #stormtitle{

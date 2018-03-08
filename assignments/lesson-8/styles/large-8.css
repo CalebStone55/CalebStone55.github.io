@@ -18,11 +18,12 @@
     }
 
 article p.town-article img { 
-        display: flex;
+    display: flex;
 }
     
 .gallery {
-     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
  }
  
 #stormtitle{
