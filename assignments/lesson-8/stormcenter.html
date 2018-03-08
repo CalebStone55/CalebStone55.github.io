@@ -7,7 +7,7 @@
   <meta name="author" content="Caleb Stone">
   <meta name="description" content="Storm Center">
   <!-- external style references in the proper cascading order -->    
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=lato">  <!-- Google API font reference -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">  <!-- Google API font reference -->
   <link rel="stylesheet" href="styles/normalize.css">                       <!-- normalize useragent/browser defaults -->
   <link rel="stylesheet" href="styles/main-8.css">                          <!-- default styles - small/phone views -->
   <link rel="stylesheet" href="styles/medium-8.css">                        <!-- medium/tablet views -->
@@ -45,18 +45,18 @@
         <div id="reporttitle">
             <h2>Storm Report Form</h2>
         </div>
-        <legend><span>Personal Information</span></legend> 
-        <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5, 99}" style="width:12.5em;" required></label>
+        <label>Personal Information</label> 
+        <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5,99}" style="width:12.5em;" required></label>
         <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com" style="width:14.5em;"></label>
         <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" style="width:10.25em;" required></label>
-        <label>Zip Code: <input name="zipcode" type="num" value="" placeholder="00000" pattern="[0-9]{5 5}" style="width:13em;" required></label>  
+        <label>Zip Code: <input name="zipcode" type="number" value="" placeholder="00000" pattern="[0-9]{5,9}" style="width:13em;" required></label>  
       </form>  
       </div>
      
-      <div class="bottom";>
+      <div class="bottom">
       <form method="post" action="thanks.html" name="reportright">
-        <legend><span>Storm Information</span></legend> 
-        <label>Storm Date: <input name="stormdate" type="date" value="" placeholder="month/day/year" style="width:12em;"></label>
+        <label>Storm Information</label> 
+        <label>Storm Date: <input name="stormdate" type="date" value="" style="width:12em;"></label>
         <label>Storm Type: <input name="stormtype" placeholder="Select Type" list="stormlist" style="width:12em;"></label>
             <datalist id="stormlist">
             <option value="Flash Flood">
@@ -79,7 +79,7 @@
             <input type="radio" name="danger" value="no">  No<br>
             </div>
         <label> Additional Details or Comments:</label>
-            <textarea name="comments" rows="5" cols="34.52">
+            <textarea name="comments" rows="5" cols="34">
             </textarea><br>
         <input type="submit" value="Submit Storm" class="tybutton">  
       </form>     
