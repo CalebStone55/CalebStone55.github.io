@@ -1,0 +1,144 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  /* Declare the base font-family - from google font api or other */
+  font-family: gisha, sans-serif;
+}
+
+header, main, footer {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    background-color: gainsboro;
+}
+header h1 {
+    color: cadetblue;
+}
+header img {
+    margin-right: 10px;
+    width: 80px;
+    height: auto;
+    padding: 10px;
+}
+header .subheading {
+    color: blueviolet;
+}
+
+nav {
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-width: 20px;
+}
+nav ul {
+    display: flex;
+    flex-direction:column;
+    clear: both;
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    overflow: hidden;
+    background-color: darkgrey;
+}
+nav ul li {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+nav ul li a {
+    display:block;
+    color:brown;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: cadetblue;
+    color: rebeccapurple;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-width: 10px;
+    
+}
+main h2 {
+    max-width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-width: 20px;
+    color: brown;
+}
+main figure { margin: 0 0 .2rem 2%; width:98%; }
+main figure img { width: 20%; }
+
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-style: solid;
+    }
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 100%; /* fill the page in the small/phone view */
+  margin: 0;
+}
+
+footer {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-width: 20px;
+    background-color: darkgrey;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .35rem;
+    margin: 20px;
+}
+#stormtitle{
+    text-align: left;
+    max-width: 500px;
+    margin: auto
+}
+#stormform {
+    max-width: 500px;
+    margin: auto;
+    border: 20em;
+    background-color:papayawhip;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+    grid-gap: 3rem;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.radio {
+    margin-left: 1em;
+}
+.tybutton {
+    margin-top: 1em;
+    margin-left: 11.45em;
+}
+#reporttitle {
+    text-align: center;
+}
+label {
+    display: block;
+    padding: 10px;
+}
+
+/* Other Class Selectors */
