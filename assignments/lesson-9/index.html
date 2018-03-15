@@ -41,19 +41,10 @@
             <img src="images/franklin-original.jpeg" alt="Franklin Image" srcset="images/franklin-small.jpeg 1x, images/franklin-medium.jpeg 2x, images/franklin-large.jpeg 3x">
         </figure>
       
-      <section class="frankdata">
-      
+      <section>
+
       </section>
       
-      <section class="greendata">
-      
-      </section>
-      
-      <section class="springdata">
-      
-      </section>
-        
-  
   </main>
     
   <footer>
@@ -67,10 +58,6 @@
   <script>
     
       var output = document.querySelector('section');
-      var output1 = document.querySelector('weatherstorydata');
-      var output2 = document.querySelector('frankdata');
-      var output3 = document.querySelector('greendata');
-      var output4 = document.querySelector('springdata');
       
       var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
       var request = new XMLHttpRequest();
@@ -82,12 +69,22 @@
           var jsondata = request.response;
           var cities = jsondata['towns'];
           for (var i = 0; i < cities.length; i++) {
+              if(i == 2) continue;
               var city = document.createElement('h3');
               city.textContent = cities[i].name + ' City';
               var motto = document.createElement('p');
               motto.textContent = '"' + cities[i].motto + '"';
+              var yearfounded = document.createElement('p');
+              yearfounded.textContent = 'Year Founded: ' + cities[i].yearFounded;
+              var currentPopulation = document.createElement('p');
+              currentPopulation.textContent = 'Current Population: ' + cities[i].currentPopulation + ' People';
+              var averageRainfall = document.createElement('p');
+              averageRainfall.textContent = 'Annual Rainfall: ' + cities[i].averageRainfall + ' Inches';
               output.appendChild(city);
               output.appendChild(motto);
+              output.appendChild(yearfounded);
+              output.appendChild(currentPopulation);
+              output.appendChild(averageRainfall);
 	       }
       }
       
