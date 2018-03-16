@@ -1,0 +1,50 @@
+@media only screen and (min-width: 64em) {
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+
+  nav, main, section, footer  {
+    max-width: 1000px;
+    margin: auto;
+  }    
+
+  header {
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+   header img {
+    margin-right: 10px;
+    width: 130px;
+    height: auto;
+    }
+
+article p.town-article img { 
+    display: flex;
+}
+    
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+ }
+ 
+#stormtitle{
+    max-width: 1000px;
+}
+#stormform {
+    max-width: 1000px;
+    border: 20em;
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+    padding-left: 21.5em;
+    padding-right: 21.5em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.tybutton {
+    margin-top: 1em;
+    margin-left: 11.45em;
+}
+legend {
+    padding: 1em;   
+}
+    
+}
