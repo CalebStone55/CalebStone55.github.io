@@ -33,19 +33,15 @@
     	<li><a href="gallery.html">Gallery</a></li>
     </ul>		
   </nav>
-    
-    <div id="stormtitle">    
-        <h2>Storm Center</h2>
-    </div>
+  <main>
+    <h2>Submit a Weather Report</h2>
+  </main>
     
   <div id="stormform">
     
-      <div class="Top">      
+      <div class="top">      
       <form method="post" action="thanks.html" name="reportleft">
-        <div id="reporttitle">
-            <h2>Storm Report Form</h2>
-        </div>
-        <label>Personal Information</label> 
+        <div id="stormtitle"><label>Personal Information</label></div>
         <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5,99}" style="width:12.5em;" required></label>
         <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com" style="width:14.5em;"></label>
         <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" style="width:10.25em;" required></label>
@@ -55,7 +51,7 @@
      
       <div class="bottom">
       <form method="post" action="thanks.html" name="reportright">
-        <label>Storm Information</label> 
+        <div id="stormtitle"><label>Storm Information</label></div>
         <label>Storm Date: <input name="stormdate" type="date" value="" style="width:12em;"></label>
         <label>Storm Type: <input name="stormtype" placeholder="Select Type" list="stormlist" style="width:12em;"></label>
             <datalist id="stormlist">
@@ -88,9 +84,9 @@
     
   <footer>
     <aside>
-      Contact information placeholder
+      WeatherOut 123 Main St. Raymond, AB T0K 2S0 (999)999-9999 Contact@byui.edu
     </aside>
-    <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | currentDate
+      <p class="footer-bar">&copy;2018 All Rights Reserved | WeatherOut | <span id="currentdate"></span></p>
        
   </footer>
     

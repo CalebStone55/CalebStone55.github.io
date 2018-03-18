@@ -7,7 +7,7 @@
  }
 
   header img {
-    margin-right: 20px;
+    margin-right: 10px;
     width: 100px;
     height: auto;
     }
@@ -38,19 +38,21 @@
 
 #stormtitle{
     max-width: 600px;
-    margin-top: 3em;
-    margin-bottom: 1em;
+    margin-top: 0em;
 }
 #stormform {
     max-width: 600px;
-    border: 20em;
-    grid-template-columns: 1fr;
-    grid-gap: 3rem;
-    padding-left: 8.5em;
-    padding-right: 8.5em;
+    padding-left: 7.5em;
+    padding-right: 7.5em;
     padding-top: 1em;
     padding-bottom: 2em;
 }
+.top {
+    padding: 20px; 
+}
+.bottom {
+    padding: 20px; 
+}    
 .tybutton {
     margin-top: 1em;
     margin-left: 11.45em;

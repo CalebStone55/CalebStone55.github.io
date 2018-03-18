@@ -1,11 +1,8 @@
-/* This main css file contains the default rules and is geared toward the small/phone view */
-
-* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+* { box-sizing: border-box;}  
 
 body {
   font-size: 16px;
-  /* Declare the base font-family - from google font api or other */
-  font-family: karma, gisha, sans-serif;
+  font-family: karma, sans-serif;
 }
 
 header {
@@ -16,11 +13,11 @@ header {
 }
 header h1 {
     color: #548684;
-    padding-top: 15px;
+    padding-top: 1px;
 }
 header img {
     margin-right: 10px;
-    width: 80px;
+    width: 100px;
     height: auto;
     padding: 10px;
 }
@@ -28,7 +25,7 @@ header .subheading {
     color: #fee119;
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-left: 10px;
 }
 
@@ -74,7 +71,7 @@ main {
     margin: 0 auto;
     padding: 10px;
     border-width: 10px;
-    
+    font-weight: bolder;
 }
 main h2 {
     max-width: 50%;
@@ -85,7 +82,17 @@ main h2 {
 .articleimg {
     width: 100%;
 }
-
+.articlep {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+}
+.townimg {
+    width: 100%;
+}
+.townp {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+}
 section {
     max-width: 500px;
     margin: 0 auto;
@@ -93,20 +100,17 @@ section {
     border-style: solid;
     }
 
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: 100%; /* fill the page in the small/phone view */
-  margin: 0;
-}
-
 footer {
     text-align: center;
-    max-width: 50%;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 20px;
-    border-width: 20px;
-    background-color: #8fbc94;
+    padding: 3px;
+    background-color: #548684;
     font-weight: bold;
-     font-family: 'gisha';
+}
+footer aside {
+    padding: 8px;
+    background-color: #8fbc94;
 }
 .gallery {
     max-width:500px;
@@ -118,7 +122,7 @@ footer {
 .galleryimg {
     
 }
-main figcaption {
+figcaption {
     
 }
 #stormtitle{
@@ -127,19 +131,35 @@ main figcaption {
     margin: auto
 }
 #stormform {
-    max-width: 500px;
+
     margin: auto;
-    border: 20em;
-    background-color:papayawhip;
-    
+    background: 500px;
     display: grid;
     grid-template-columns: 1fr;
     text-align: left;
-    grid-gap: 3rem;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    grid-gap: 2rem;
+}
+#stormtitle {
+    font-size: 22px;
+}
+.top {
+    border-radius: 25px;
+    border: 2px solid #524a4a; 
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: .5em;
+    padding-bottom: .5.em;
+    background-color: #ffefd5;
+}
+.bottom {
+    border-radius: 25px;
+    border: 2px solid #524a4a; 
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    background-color: #ffefd5;
+    margin-bottom: 3em;
 }
 .radio {
     margin-left: 1em;
@@ -155,8 +175,6 @@ label {
     display: block;
     padding: 10px;
 }
-
-/* index box*/
 
 section.threetowns {
     display: flex;
