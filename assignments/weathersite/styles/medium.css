@@ -2,7 +2,7 @@
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
   header, nav, main, footer {
-    max-width: 580px;
+    max-width: 600px;
     margin: auto;
  }
 
@@ -14,32 +14,35 @@
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
   nav ul {
-      width: 100%;
+      width: 583px;
+      justify-content: center;
       flex-direction: row;
-  }    
-    
+  }  
+    nav ul li {
+    border-bottom: 0px;
+    }
+ nav ul li a {
+    padding: 8px 16px;
+}
     section {
-    max-width: 580px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border-style: solid;
     }
-    
-  article p.town-article img { width: 62.666%; }  /* responsive images */
-
 
 .gallery {
     grid-template-columns: 1fr 1fr;
-    max-width: 580px;
+    max-width: 600px;
  }
 
 #stormtitle{
-    max-width: 580px;
+    max-width: 600px;
     margin-top: 3em;
     margin-bottom: 1em;
 }
 #stormform {
-    max-width: 580px;
+    max-width: 600px;
     border: 20em;
     grid-template-columns: 1fr;
     grid-gap: 3rem;
@@ -54,6 +57,4 @@
 }
 legend {
     padding: 1em;   
-}
-
 }

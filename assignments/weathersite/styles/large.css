@@ -17,8 +17,23 @@
     height: auto;
     }
 
-article p.town-article img { 
-    display: flex;
+nav ul {
+  width: 991px;
+    }
+ nav ul li a {
+    padding: 14px 50px;
+}  
+    
+.articleimg {
+    width: 55%;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+ .articlep {
+     display: inline;
+     position: absolute;
+     width: 430px;
 }
     
 .gallery {
@@ -45,6 +60,4 @@ article p.town-article img {
 }
 legend {
     padding: 1em;   
-}
-    
 }

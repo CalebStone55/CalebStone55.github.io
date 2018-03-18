@@ -7,19 +7,16 @@ body {
   /* Declare the base font-family - from google font api or other */
   font-family: karma, gisha, sans-serif;
 }
-header, main, footer {
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 header {
     display: flex;
-    align-items: flex-start;
+    align-items:flex-start;
     background-color: #8fbc94;
     font-family: 'Fredoka One';
 }
 header h1 {
     color: #548684;
+    padding-top: 15px;
 }
 header img {
     margin-right: 10px;
@@ -31,13 +28,14 @@ header .subheading {
     color: #fee119;
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
+    padding-top: 70px;
+    padding-left: 10px;
 }
 
 nav {
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
-    padding: 10px;
-    border-width: 20px;
+    padding: 5px;
     font-weight: bold;
 }
 nav ul {
@@ -80,13 +78,13 @@ main {
 }
 main h2 {
     max-width: 50%;
-    margin: auto;
+    margin: 10px;
     padding: 10px;
-    border-width: 20px;
     color: #3d5467;
 }
-main figure { margin: 0 0 .2rem 2%; width:98%; }
-main figure img { width: 20%; }
+.articleimg {
+    width: 100%;
+}
 
 section {
     max-width: 500px;
@@ -111,10 +109,17 @@ footer {
      font-family: 'gisha';
 }
 .gallery {
+    max-width:500px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: .35rem;
     margin: 20px;
+}
+.galleryimg {
+    
+}
+main figcaption {
+    
 }
 #stormtitle{
     text-align: left;
@@ -151,4 +156,10 @@ label {
     padding: 10px;
 }
 
-/* Other Class Selectors */
+/* index box*/
+
+section.threetowns {
+    display: flex;
+    flex-direction: column;
+}
+
