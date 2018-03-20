@@ -91,16 +91,23 @@ main h2 {
 .articleimg {
     width: 100%;
 }
+.citytop {
+    width: 100%;
+    height: auto;
+}
 .articlep {
     font-family: 'Open Sans', sans-serif;
-    line-height: 21px;
+    line-height: 23px;
+    font-weight: 500;
+    
 }
 .townimg {
     width: 100%;
 }
 .townp {
     font-family: 'Open Sans', sans-serif;
-    line-height: 22px;
+    line-height: 24px;
+    font-weight: 500;
 }
 section {
     max-width: 500px;
@@ -113,12 +120,12 @@ footer {
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
-    padding: 3px;
+    padding-bottom: 1px;
     background-color: #548684;
     font-weight: bold;
 }
 footer aside {
-    padding: 8px;
+    padding: 12px;
     background-color: #8fbc94;
 }
 .gallery {
