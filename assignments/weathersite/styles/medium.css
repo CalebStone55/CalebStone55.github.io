@@ -34,13 +34,32 @@ header .subheading {
     height: 42px;
     padding: 14px 3px;
 }
-    section {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border-style: solid;
+
+.conditions {
+    grid-template-columns: 1fr 1fr;
+
+}
+.conditions p {
+    padding-right: 35px;
+    font-size: 20px;
+}
+    #w_icon {
+        width: 50px;
+        margin-top: 15px;
+        margin-left:240px;
     }
-    
+.dailydesc {
+    font-size: 17px;
+    margin: 18px;
+    padding:18px;
+}
+ .forecast {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;    
+} 
 nav ul.hide {
     display:flex;
     }

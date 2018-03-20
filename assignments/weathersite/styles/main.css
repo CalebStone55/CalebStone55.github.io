@@ -112,23 +112,45 @@ main h2 {
     font-weight: 500;
 }
 section {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 30px;
+    max-width: 600px;
     border-style: solid;
     }
-
+.conditions {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.conditions p {
+    font-size: 18px;
+    text-align: center;
+}
+    #w_icon {
+        width: 40px;
+        margin-top: 20px;
+        margin-left:43%;
+        position:relative;
+    }
+.dailydesc {
+    border-top: 3px solid #524a4a;
+    font-size: 17px;
+    margin: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+}
+ .forecast {
+    display: none;
+}  
 footer {
     text-align: center;
     max-width: 500px;
     margin: 0 auto;
     padding-bottom: 1px;
-    background-color: #548684;
+    background-color: #8fbc94;
     font-weight: bold;
 }
 footer aside {
     padding: 12px;
-    background-color: #8fbc94;
+    background-color: #cccccc;
 }
 .gallery {
     max-width:100%;

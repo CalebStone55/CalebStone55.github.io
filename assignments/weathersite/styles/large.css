@@ -39,7 +39,26 @@ nav ul {
     height: 46px;
     padding: 16px 36px;
 }
-    
+section {
+    max-width: 1000px;
+    }
+.conditions p {
+    padding-right: 50px;
+    font-size: 23px;
+}
+    #w_icon {
+        width: 90px;
+        margin-top: 20px;
+        margin-left:430px;
+    }
+.dailydesc {
+    font-size: 20px;
+    margin: 20px;
+    padding:20px;
+}
+.forecast {
+    font-size: 20px;    
+}  
 .articleimg {
     width: 55%;
     margin-right: 15px;
@@ -47,6 +66,12 @@ nav ul {
     display: inline-block;
 }
 
+.gridimg {
+  max-width: 300px;
+  padding-left: 0px;
+  margin-left: 500px;
+}
+    
  .articlep {
      display: inline;
      position: absolute;
