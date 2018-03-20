@@ -7,7 +7,7 @@
 
   header {
     max-width: 1000px;
-    margin: 3px auto;
+    margin: 0px auto;
   }
 
 header h1 {
@@ -32,11 +32,13 @@ header .subheading {
     }
 
 nav ul {
-  width: 991px;
+  width: 1000px;
     }
  nav ul li a {
-    padding: 12px 50px;
-}  
+    width: 167px;
+    height: 46px;
+    padding: 16px 36px;
+}
     
 .articleimg {
     width: 55%;
