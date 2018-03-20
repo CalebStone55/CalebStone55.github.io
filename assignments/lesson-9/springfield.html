@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WeatherOut: Weather for the town of Springfield.</title>
+  <meta name="author" content="Caleb Stone">
+  <meta name="description" content="City of Springfield">
+  <!-- external style references in the proper cascading order -->    
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah"> 
+  <link rel="stylesheet" href="styles/normalize.css">             
+  <link rel="stylesheet" href="styles/main.css">                
+  <link rel="stylesheet" href="styles/medium.css">     
+  <link rel="stylesheet" href="styles/large.css"> 
+    
+</head>
+<body>
+    
+  <header>
+    <img src="images/logo.png" alt="The site logo" width="100" height="100">
+    <h1>WeatherOut</h1>
+    <div class="subheading">"WeatherOut Any Storm"</div>
+  </header>
+
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="franklin.html">Franklin</a></li>
+    	<li><a href="greenville.html">Greenville</a></li>
+    	<li class="active"><a href="springfield.html">Springfield</a></li>
+    	<li><a href="stormcenter.html">Storm Center</a></li>
+    	<li><a href="gallery.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>The City of Springfield</h2> 
+      
+    <picture>
+      <img class="citytop" src="images/spring-top.jpg" alt="Weather Icon">
+    </picture>
+      
+     <section>
+      <div class="conditions">
+        <picture>
+          <img id="w_icon" src="w_icon" alt="Weather Icon"> 
+        </picture>
+        <div class="weatherstats"></div>
+        <p>Temperature: <span id="temp"></span>&deg;</p>
+        <p>Precipitation: <span id ="precipitation"></span> in</p>
+        <p>Today's High: <span id="high"></span>&deg;</p>
+        <p>Wind Speed: <span id="wind"></span> mph</p> 
+        <p>Today's Low: <span id="low"></span>&deg;</p>
+        <p>Wind Chill: <span id="windchill"></span>&deg;</p>
+        
+      </div> 
+      <div class="dailydesc">
+        <h3>Weather Summary</h3>
+        <p><span id="dailyUpdate"></span></p>
+        </div>
+        
+    </section> 
+      
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+		</tbody>
+      </table>
+    </section>
+    <article>
+      <h2>Greenville News Story</h2>	
+      <img  class="townimg" src="images/spring-bottom.jpg" alt="City of Fraklin">
+      <div class="townp">
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </article>      
+  </main>
+    
+  <footer>
+    <aside>
+      WeatherOut 123 Main St. Raymond, AB T0K 2S0 (999)999-9999 Contact@byui.edu
+    </aside>
+      <p class="footer-bar">&copy;2018 All Rights Reserved | WeatherOut | <a href=" https://termsfeed.com/terms-use/e39155cc03fae852bce55a73de6e8aeb" target=_blank>Terms of use</a> | <span id="currentdate"></span></p>
+  </footer>
+
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/wu-springfield.js"></script>
+
+    
+</body>
+</html>

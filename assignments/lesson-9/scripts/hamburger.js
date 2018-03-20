@@ -1,4 +1,3 @@
-function toggleNavMenu() {
-    console.log(document.getElementById("NavMenu").classList);
-	document.getElementsById("navMenu").classList.toggle("responsive");
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
 }
