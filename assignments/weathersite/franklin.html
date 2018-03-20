@@ -7,17 +7,19 @@
   <meta name="author" content="Caleb Stone">
   <meta name="description" content="City of Franklin Weather Website">
   <!-- external style references in the proper cascading order -->    
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma|Fredoka+One|Gloria+Hallelujah">  <!-- Google API font reference -->
-  <link rel="stylesheet" href="styles/normalize.css">                       <!-- normalize useragent/browser defaults -->
-  <link rel="stylesheet" href="styles/main.css">                          <!-- default styles - small/phone views -->
-  <link rel="stylesheet" href="styles/medium.css">                        <!-- medium/tablet views -->
-  <link rel="stylesheet" href="styles/large.css">                         <!-- large/wide/desktop views --> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah"> 
+  <link rel="stylesheet" href="styles/normalize.css">             
+  <link rel="stylesheet" href="styles/main.css">                
+  <link rel="stylesheet" href="styles/medium.css">     
+  <link rel="stylesheet" href="styles/large.css"> 
     
 </head>
 <body>
     
   <header>
-    <a href="index.html"><img src="images/logo.png" alt="The site logo" width="100" height="100"></a>
+    <img src="images/logo.png" alt="The site logo" width="100" height="100">
     <h1>WeatherOut</h1>
     <div class="subheading">"WeatherOut Any Storm"</div>
   </header>
@@ -45,7 +47,7 @@
       <h3>Weather Summary</h3>
       <div class="conditions">
         <picture>
-          <img id="w_icon" src="" alt="Weather Icon"> 
+          <img id="w_icon" src="w_icon" alt="Weather Icon"> 
         </picture>
         <p>Temperature: <span id="temp"></span>&deg;</p>
         <p>Today's High: <span id="high"></span>&deg;</p>
