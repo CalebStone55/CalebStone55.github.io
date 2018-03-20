@@ -11,22 +11,23 @@
   }
 
 header h1 {
-    font-size: 35px;
+    font-size: 33px;
     color: #548684;
-    padding-top: 8px;
+    padding-top: 0px;
 }
     
 header .subheading {
     color: #fee119;
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
-    padding-top: 62px;
-    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 58px;
+    padding-left: 205px;
 }
     
    header img {
     margin-right: 10px;
-    width: 130px;
+    width: 108px;
     height: auto;
     }
 
@@ -61,10 +62,8 @@ nav ul {
      position: absolute;
      width: 430px;
 }
-    
 .gallery {
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1000px;
 }
 #stormform {
     max-width: 1000px;

@@ -11,6 +11,14 @@
     width: 100px;
     height: auto;
     }
+header h1 {
+    font-size: 30px;
+}
+header .subheading {
+    font-size: 13px;
+    padding-top: 53px;
+    padding-left: 190px;
+}
   nav button { display:none; }  /* hamburger button does not need to be shown */
   
   nav ul {
@@ -30,12 +38,14 @@
     padding: 20px;
     border-style: solid;
     }
-
+    
+nav ul.hide {
+    display:flex;
+    }
+    
 .gallery {
     grid-template-columns: 1fr 1fr;
-    max-width: 600px;
- }
-
+}
 #stormtitle{
     max-width: 600px;
     margin-top: 0em;
