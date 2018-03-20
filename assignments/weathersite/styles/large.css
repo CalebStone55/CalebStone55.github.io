@@ -10,20 +10,20 @@
     margin: 0px auto;
   }
 
-header h1 {
+  header h1 {
     font-size: 33px;
     color: #548684;
     padding-top: 0px;
-}
+  }
     
-header .subheading {
+  header .subheading {
     color: #fee119;
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
     font-size: 15px;
     padding-top: 58px;
     padding-left: 205px;
-}
+  }
     
    header img {
     margin-right: 10px;
@@ -31,77 +31,93 @@ header .subheading {
     height: auto;
     }
 
-nav ul {
-  width: 1000px;
-    }
- nav ul li a {
+  nav ul {
+    width: 1000px;
+  }
+    
+  nav ul li a {
     width: 167px;
     height: 46px;
     padding: 16px 36px;
-}
-section {
+  }
+    
+  section {
     max-width: 1000px;
-    }
-.conditions p {
+  }
+    
+  .conditions p {
     padding-right: 20px;
     font-size: 23px;
-}
-    #w_icon {
-        width: 90px;
-        margin-top: 50px;
-        margin-left:430px;
-    }
-.dailydesc {
+  }
+    
+  #w_icon {
+     width: 90px;
+     margin-top: 50px;
+    margin-left:430px;
+  }
+    
+  .dailydesc {
     font-size: 20px;
     margin: 20px;
     padding:20px;
-}
-.forecast {
+  }
+    
+  .forecast {
     font-size: 20px;    
-}  
-.articleimg {
+  }  
+    
+  .articleimg {
     width: 55%;
     margin-right: 15px;
     margin-bottom: 18px;
     display: inline-block;
-}
+  }
 
-.gridimg {
-  max-width: 300px;
-  padding-left: 0px;
-  margin-left: 500px;
-}
+  .gridimg {
+    max-width: 300px;
+    padding-left: 0px;
+    margin-left: 500px;
+  }
     
  .articlep {
-     display: inline;
-     position: absolute;
-     width: 430px;
-}
-.townimg {
+    display: inline;
+    position: absolute;
+    width: 430px;
+  }
+    
+  .townimg {
     width: 55%;
     margin-right: 15px;
     margin-bottom: 18px;
     display: inline-block;
-}
+  }
 
- .townp {
-     display: inline;
-     position: absolute;
-     width: 430px;
-}
-.gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-#stormform {
+  .townp {
+    display: inline;
+    position: absolute;
+    width: 430px;
+  }
+    
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;  
+  } 
+    
+  .galleryimg {
+    box-shadow: 5px 5px 5px;
+  }  
+    
+  #stormform {
     max-width: 1000px;
     padding-left: 20em;
     padding-right: 20em;
-}
-.tybutton {
+  }
+    
+  .tybutton {
     margin-top: 1em;
     margin-left: 11.45em;
-}
-legend {
+  }
+    
+  legend {
     padding: 1em;   
-}
+  }
 }
