@@ -118,4 +118,34 @@
   legend {
     padding: 1em;   
   }
+    
+  section.threetowns {
+    padding: 20px;
+    padding-left: 260px;
+    max-width: 600px;
+  }
+    
+    .frankhome {
+        display: grid;
+        max-width: 250px;
+        position:absolute;
+        padding-left: 40px;
+        padding-top: 60px;
+    } 
+    
+    .greenhome {
+        display: flex;
+        max-width: 250px;
+        position:absolute;
+        padding-left: 40px;
+        padding-top: 320px;
+    }
+    
+    .springhome {
+        display: flex;
+        max-width: 250px;
+        position:absolute;
+        padding-left: 40px;
+        padding-top: 579px;
+    }
 }

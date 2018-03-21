@@ -264,6 +264,19 @@ label {
 }
 
 section.threetowns {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: center;
+}
+.frankhome {
+    display: none;
+} 
+    
+.greenhome {
+    display: none;
+}
+    
+.springhome {
+    display: none;
 }
