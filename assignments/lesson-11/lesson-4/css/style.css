@@ -277,5 +277,12 @@ body {
 	font-weight: normal;
 	color:inherit;
 }
-
+.footerNav {
+	position:relative;
+	top: 35px;
+	right: 7px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	color: rgba(0,0,0,0.8);    
+}
 
