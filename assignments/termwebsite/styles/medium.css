@@ -1,0 +1,102 @@
+@media only screen and (min-width: 37.5em) {
+
+  header, nav, main, footer {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  header {
+    height: 100px;
+  }
+ 
+  header h1 {
+    font-size: 30px;
+  }
+    
+header .subheading {
+    font-size: 18px;
+    padding-top: 52px;
+    padding-left: 230px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+ nav button {
+    display: none; 
+  }
+ 
+  nav ul {
+      width: 800px;
+      justify-content: center;
+      flex-direction: row;
+  } 
+    
+  nav ul li {
+    border-bottom: 0px;
+  }
+    
+  nav ul li a {
+    width: 100px;
+    height: 42px;
+    padding: 14px 3px;
+  }
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #ebe9df;
+}
+
+main p {
+    padding: 10px;
+}
+
+.topimg {
+    max-width: 100%;
+}
+
+main h2 {
+    text-align: center;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+    color: #196181;
+    border-top: solid;
+}
+
+.topseller1, .topseller2, .topseller3, .topseller4 {
+    max-width: 100%;
+    
+}
+
+.storytop, .storybottom {
+    max-width: 100%;
+    
+}
+
+.calltoaction {
+    position:absolute;
+    text-align: center;
+    max-width: 130px;
+    padding: 10px;
+    margin-right: 9px;
+    margin-left: 65%;
+    background-color: #c5e951;
+    
+}
+
+footer {
+    margin-top: 90px;
+    text-align: center;
+    padding-bottom: 1px;
+    background-color: #728569;
+    font-weight: bold;
+}
+
+footer aside {
+    padding: 12px;
+    background-color: #967844;
+}
