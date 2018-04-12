@@ -60,13 +60,29 @@
   .storybottom {
     width: 54%;
     height: 54%;
+  }
 
+  .tourtop {
+    max-width: 45%;
+    float: left;
+  } 
+
+  .tourbottom {
+    max-width: 45%;
+    float: left;
   }
     
-  .storytext {
-    margin:5px;
-    max-width: 40%;
-    margin-top: 150px;
+  .tourone {
+    margin-left: 20%;
   }
-
+    
+  .tourtext {
+    padding: 20px;
+    margin-left: 49%;
+  }
+    
+  .tourborder {
+    border-bottom: solid;    
+  }
+    
 }

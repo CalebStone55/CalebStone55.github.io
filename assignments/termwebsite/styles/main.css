@@ -199,8 +199,11 @@ footer aside {
 
 .tourone {
     max-width: 350px;
-    border: solid;
+    background-color: #c3e4ed;
+    border-radius: 25px;
+    border: 2px solid #524a4a; 
     margin: auto;
+    margin-top: 20px;
     padding: auto;
 
 }
