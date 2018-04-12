@@ -188,3 +188,25 @@ footer aside {
     padding: 12px;
     background-color: #967844;
 }
+
+.tourtop {
+    max-width: 100%;
+}
+
+.tourbottom {
+    max-width: 100%;
+}
+
+.tourone {
+    max-width: 350px;
+    border: solid;
+    margin: auto;
+    padding: auto;
+
+}
+
+.tourtitle {
+    text-align: center;
+    padding: 10px;
+}
+
