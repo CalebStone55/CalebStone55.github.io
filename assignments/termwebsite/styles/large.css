@@ -42,23 +42,31 @@
     margin-left: 7px;
   }
     
+  h3 {
+    display: none;
+  }
+    
   .stories {
     max-width: 1500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
+  .storytop {
+    width: 54%;
+    height: 54%;
+  }
+    
+  .storybottom {
+    width: 54%;
+    height: 54%;
+
   }
     
   .storytext {
-    margin-left: 0%;    
-  }
-
-  .calltoaction {
-    padding: 15px;
-    margin-top: 20px;
-  }
-
-  footer {
-    margin-top: 90px;
+    margin:5px;
+    max-width: 40%;
+    margin-top: 150px;
   }
 
 }

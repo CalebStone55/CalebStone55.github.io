@@ -90,19 +90,85 @@ main h2 {
     margin: 10px;
     padding: 10px;
     color: #196181;
-    border-top: solid;
+
+}
+
+.headertwo {
+    color: #196181;
+}
+
+.spokeleft {
+    border-top: 2px solid;
+    border-color: #196181;
+    text-align: center;
+    max-width: 100%;
+    margin: 20px;
+}
+
+.customerrating {
+    max-width:50%;
+    margin-bottom: 20px;
+    
+}
+
+.spokemiddle {
+    border-top: 2px solid;
+    border-color: #196181;
+    margin: 20px;
+}
+
+.spokeright {
+    border-top: 2px solid; 
+    border-bottom: 6px solid;
+    border-color: #196181;
+    margin: 20px;
+}
+
+.sellerhead {
+    color: #951941;
 }
 
 .topseller1, .topseller2, .topseller3, .topseller4 {
     max-width: 100%;
-    
+}
+
+.topseller4 {
+    border-bottom: 6px solid;
+    color: #951941;
+    padding-bottom: 40px;
+}
+
+.customerhead {
+    color: #116811;
 }
 
 .storytop, .storybottom {
     max-width: 100%;
+    padding-bottom: 40px;
 }
 
-.calltoaction {
+main h3 {
+    text-align: center;
+    color: #116811;
+}
+
+.storytext {
+    margin:20px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid;
+    border-color: #116811;
+}
+
+.calltoactiontop {
+    float: right;
+    text-align: center;
+    max-width: 130px;
+    padding: 10px;
+    margin-bottom: 25px; 
+    margin-right: 20px;
+    background-color: #c5e951;
+}
+.calltoactionbottom {
     float: right;
     text-align: center;
     max-width: 130px;
@@ -112,7 +178,6 @@ main h2 {
 }
 
 footer {
-    margin-top: 80px;
     text-align: center;
     padding-bottom: 1px;
     background-color: #728569;
