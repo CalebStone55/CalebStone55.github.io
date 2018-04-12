@@ -81,7 +81,7 @@ main p {
 }
 
 .topimg {
-    max-width: 100%;
+    width: 100%;
 }
 
 main h2 {
@@ -100,22 +100,19 @@ main h2 {
 
 .storytop, .storybottom {
     max-width: 100%;
-    
 }
 
 .calltoaction {
-    position:absolute;
+    float: right;
     text-align: center;
     max-width: 130px;
     padding: 10px;
-    margin-right: 9px;
-    margin-left: 65%;
+    margin-right: 20px;
     background-color: #c5e951;
-    
 }
 
 footer {
-    margin-top: 90px;
+    margin-top: 80px;
     text-align: center;
     padding-bottom: 1px;
     background-color: #728569;

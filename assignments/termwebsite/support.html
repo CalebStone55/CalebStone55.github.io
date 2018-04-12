@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Mountain Spoke: Retail store and shop for bicycles, parts, repair, and tours in Bozeman, Montana.</title>
+  <meta name="author" content="Caleb Stone">
+  <meta name="description" content="The Mountain Spoke bicycle shop.">
+  <link rel="stylesheet" href="styles/normalize.css">             
+  <link rel="stylesheet" href="styles/main.css">                
+  <link rel="stylesheet" href="styles/medium.css">     
+  <link rel="stylesheet" href="styles/large.css"> 
+    
+</head>
+<body>
+
+  <header>
+    <img src="images/gearlogo.jpg" alt="Site logo" width="100" height="100">
+    <h1>The Mountain Spoke</h1>
+    <div class="subheading">"Break Free"</div>
+  </header>
+
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="tour.html">Adventure Tours</a></li>
+    	<li><a href="event.html">Event</a></li>
+    	<li><a href="sale.html">Sales</a></li>
+    	<li><a href="service.html">Service</a></li>
+    	<li class="active"><a href="support.html">Support</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+      <h2 class="headertwo">Customer Support</h2>  
+      
+        <div class="support">
+            <p> The contact page will contain essential contact information including an embedded Google map showing the company address at 3950 Valley Commons Drive Bozeman, MT and a basic contact us form. </p>
+        </div>
+      
+      <div class="contactform">      
+      <form method="post" action="thanks.html" name="contactsubmition">
+        <div id="contacttitle"><label>Contact Us</label></div>
+        <label>Full Name: <input name="fullname" type="text" value="" placeholder="John Doe" pattern="[a-zA-Z]{5,99}" style="width:12.5em;" required></label>
+        <label>Email: <input name="email" type="email" value="" placeholder="example@gmail.com" style="width:14.5em;"></label>
+        <label>Phone Number: <input name="phonenumber" type="tel" value="" placeholder="0123456789" style="width:10.25em;" required></label>
+        <label>Subject</label>
+            <div  class="radio">
+            <input type="radio" name="subject" value="advenuretours">  Adventure Tours<br>
+            <input type="radio" name="subject" value="event">  Event<br>
+            <input type="radio" name="subject" value="sales">  Sales<br>
+            <input type="radio" name="subject" value="service">  Service<br>
+            <input type="radio" name="subject" value="other">  Other<br>
+            </div>
+        <label>What can we assist you with?</label>
+            <textarea name="comments" rows="10" cols="50">
+            </textarea><br>     
+        <input type="submit" value="Send" class="tybutton">
+                                                                
+      </form>     
+      </div>
+
+  </main>
+    
+  <footer>
+    <aside>
+      The Mountain Spoke 123 Main St. Bozeman, MT 59715 (999)999-9999 Contact@byui.edu
+    </aside>
+      <p class="footer-bar">&copy;2018 All Rights Reserved | The Mountain Spoke | <a href=" https://termsfeed.com/terms-use/e39155cc03fae852bce55a73de6e8aeb" target=_blank>Terms of use</a> | <span id="currentdate"></span></p>
+  </footer>
+
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
