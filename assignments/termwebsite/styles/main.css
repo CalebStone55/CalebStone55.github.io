@@ -205,7 +205,6 @@ footer aside {
     margin: auto;
     margin-top: 20px;
     padding: auto;
-
 }
 
 .tourtitle {
@@ -213,3 +212,6 @@ footer aside {
     padding: 10px;
 }
 
+.eventtitle {
+    margin: 15px;
+}
